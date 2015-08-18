@@ -12,10 +12,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
   </properties>
+  <build>
+	  		<pluginManagement>
+							<plugins>
   <plugin>
     <groupId>org.jacoco</groupId>
 	  <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.7.6-SNAPSHOT</version>
-  </plugin>
+</plugin>
+</pluginManagement>
+</build>
 
 </project>
