@@ -20,6 +20,7 @@
 	  <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.7.6-SNAPSHOT</version>
 </plugin>
+</plugins>
 </pluginManagement>
 </build>
 
